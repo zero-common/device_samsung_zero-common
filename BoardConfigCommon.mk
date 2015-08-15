@@ -5,20 +5,12 @@ TARGET_SPECIFIC_HEADER_PATH := $(LOCAL_PATH)/include
 BOARD_VENDOR := samsung
 
 # Architecture
-TARGET_ARCH := arm64
-TARGET_ARCH_VARIANT := armv8-a
-TARGET_CPU_ABI := arm64-v8a
-TARGET_CPU_ABI2 :=
-TARGET_CPU_VARIANT := generic
-
-TARGET_2ND_ARCH := arm
-TARGET_2ND_ARCH_VARIANT := armv7-a-neon
-TARGET_2ND_CPU_ABI := armeabi-v7a
-TARGET_2ND_CPU_ABI2 := armeabi
-TARGET_2ND_CPU_VARIANT := cortex-a53
-
-# Binder
-TARGET_USES_64_BIT_BINDER := true
+TARGET_ARCH := arm
+TARGET_ARCH_VARIANT := armv7-a-neon
+TARGET_CPU_ABI := armeabi-v7a
+TARGET_CPU_ABI2 := armeabi
+TARGET_CPU_VARIANT := cortex-a53
+TARGET_PREFER_32_BIT := true
 
 # Bluetooth
 BOARD_HAVE_BLUETOOTH := true
@@ -100,10 +92,6 @@ BOARD_HAS_DOWNLOAD_MODE := true
 
 # Renderscript
 BOARD_OVERRIDE_RS_CPU_VARIANT_32 := cortex-a15
-BOARD_OVERRIDE_RS_CPU_VARIANT_64 := cortex-a57
-
-# SurfaceFlinger
-BOARD_USES_SYNC_MODE_FOR_MEDIA := true
 
 # Enable Minikin text layout engine (will be the default soon)
 USE_MINIKIN := true
