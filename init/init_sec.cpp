@@ -74,8 +74,8 @@ void vendor_load_properties()
         property_set("ro.product.device", "zerofltexx");
     } else {
         /* zerofltexx */
-        property_set("ro.build.fingerprint", "samsung/zerofltexx/zerofltexx:5.1.1/LMY47X/G920FXXS3COK5:user/release-keys");
-        property_set("ro.build.description", "zerofltexx-user 5.1.1 LMY47X G920FXXS3COK5 release-keys");
+        property_set("ro.build.fingerprint", "samsung/zerofltexx/zeroflte:6.0.1/MMB29K/G920FXXU3ZPA1:user/release-keys");
+        property_set("ro.build.description", "zerofltexx-user 6.0.1 MMB29K G920FXXU3ZPA1 release-keys");
         property_set("ro.product.model", "SM-G920F");
         property_set("ro.product.device", "zerofltexx");
     }
