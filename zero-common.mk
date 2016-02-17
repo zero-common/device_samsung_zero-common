@@ -168,9 +168,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     SamsungServiceMode
 
-# Samsung Symbols
+# Shims
 PRODUCT_PACKAGES += \
-    libsamsung_symbols
+    libshim_ril
 
 # Wifi
 PRODUCT_PACKAGES += \
